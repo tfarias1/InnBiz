@@ -25,8 +25,8 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['az-innbiz.azurewebsites.net', '*']
-CSRF_TRUSTED_ORIGINS = ['https://*.az-innbiz.azurewebsites.net', '*']
+ALLOWED_HOSTS = ['az-innbiz.azurewebsites.net', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://*.az-innbiz.azurewebsites.net', 'https://*.127.0.0.1']
 
 
 # Application definition
